@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: black;
+  }
+
+  header {
+    background-color: #1c184d;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header img {
+    width: 50px;
+    height: auto;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .content {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background-color: white;
+  }
+
+  #content1{
+    margin-top: 75px;
+  }
+
+  #content2 {
+    text-align: center;
+    background-image: linear-gradient(
+0deg,
+hsl(189deg 53% 62%) 0%,
+hsl(192deg 49% 55%) 11%,
+hsl(195deg 49% 48%) 22%,
+hsl(198deg 59% 41%) 33%,
+hsl(200deg 70% 35%) 44%,
+hsl(203deg 79% 30%) 56%,
+hsl(207deg 84% 25%) 67%,
+hsl(214deg 80% 22%) 78%,
+hsl(224deg 72% 18%) 89%,
+hsl(244deg 69% 14%) 100%
+);
+color: white;
+
+padding: 100px;
+  }
+
+  #eu{
+    width: 250px;
+    border-radius: 50%;
+    border: 10px #1c184d49 solid;
+  }
+
+  footer {
+    background-color: #1c184d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  #social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  #social-icons img {
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s;
+  }
+
+  #social-icons img:hover {
+    transform: scale(1.2);
+  }
